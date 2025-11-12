@@ -8,7 +8,7 @@ A contagion model exploring how defaults propagate through a private credit netw
 ## 🧩 Model Overview
 Each lender and borrower is represented as a node. Edges represent exposures (loans).  
 If a borrower defaults, lenders lose value proportional to exposure.  
-If a lender’s equity is depleted, it defaults — potentially triggering further losses.
+If a lender’s equity is completely lost, it defaults - potentially triggering further losses.
 
 ## 🧠 Tools
 - Python
